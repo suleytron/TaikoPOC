@@ -1,4 +1,6 @@
 # TaikoPOC
 Trying out an idea
 
-Testing
+Framework
+Exporting and Importing in JS
+
