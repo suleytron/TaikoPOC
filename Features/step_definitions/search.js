@@ -13,8 +13,8 @@ Given(/^I have entered search on Google$/, async function ()
     await driver.openBrowser({headless: false});
     //await driver.openBrowser();
     await driver.goto('http://www.google.com');
-   // await driver.write(randomWords(), driver.into(driver.textField()));
-    await driver.write(my_random_string, driver.into(driver.textField()));
+    await driver.write(randomWords() + ' alcohol test', driver.into(driver.textField()));
+    //await driver.write(my_random_string, driver.into(driver.textField()));
 });
 
 
