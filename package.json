@@ -1,0 +1,30 @@
+{
+  "name": "taikopoc",
+  "version": "1.0.0",
+  "description": "testing an idea",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suleytron/TaikoPOC.git"
+  },
+  "keywords": [
+    "taiko",
+    "test",
+    "automation"
+  ],
+  "author": "suley mahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suleytron/TaikoPOC/issues"
+  },
+  "homepage": "https://github.com/suleytron/TaikoPOC#readme",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "cucumber": "^5.1.0",
+    "random-words": "^1.1.0",
+    "taiko": "^0.5.0"
+  }
+}
